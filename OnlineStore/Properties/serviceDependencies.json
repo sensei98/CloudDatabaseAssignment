@@ -3,16 +3,16 @@
     "appInsights1": {
       "type": "appInsights"
     },
-    "storage1": {
-      "type": "storage",
-      "connectionId": "AzureWebJobsStorage"
-    },
     "secrets1": {
       "type": "secrets"
     },
     "cosmosdb1": {
       "type": "cosmosdb",
       "connectionId": "ConnectionStrings"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "AzureWebJobsStorage"
     }
   }
 }
